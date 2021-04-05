@@ -1,2 +1,2 @@
-# graphql-example
-GraphQL and Spring Boot integration example
+# GraphQL with Spring Boot example
+GraphQL and Spring Boot integration example.
