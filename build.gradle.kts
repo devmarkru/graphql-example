@@ -21,6 +21,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("com.graphql-java-kickstart:graphql-spring-boot-starter:11.0.0")
+    implementation("com.graphql-java-kickstart:playground-spring-boot-starter:11.0.0")
 }
 
 tasks.withType<KotlinCompile> {

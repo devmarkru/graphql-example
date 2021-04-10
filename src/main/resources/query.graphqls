@@ -1,15 +1,26 @@
+# Книга
 type Book {
     id: ID!,
+    # Название книги
     title: String!,
+    # Автор книги
     author: Author!
 }
 
+# Автор книги
 type Author {
     id: ID!,
+    # Имя автора
     name: String!,
+    # Фамилия автора
     surname: String!
 }
 
+# Публичные методы GraphQL
 type Query {
-    getBooks(limit: Int):[Book!]
+    # Список книг
+    getBooks(
+        # Максимальное кол-во книг в списке
+        limit: Int
+    ):[Book!]
 }
